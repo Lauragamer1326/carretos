@@ -1,0 +1,325 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-image: url(Imagens/caixa1.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #090837;
+    display: flex;
+}
+
+
+.tela-principal{
+    width: 100%;
+    height: 1020px;
+    background-image: url(Imagens/caixa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.logo {
+    width: 100%;
+    height: 100%;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#menu a{ 
+    word-spacing: 5px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 3.38vh;
+}
+
+#menu svg {
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+    width: 50px;
+
+}
+
+
+P{
+    width: 50%;
+    height: 50%;
+
+}
+
+P5{
+    color: #ffff;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+.caixa-grande{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+}
+.caixa1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagemicon{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/Mudança1.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.caixa2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    color: #E0A611;
+    flex-direction:column;
+
+}
+
+h5{
+    color: #E0A611;
+    flex-direction:column;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h6{
+    text-align: center;
+    color: #E0A611;
+    flex-direction:column;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.imagemicon1{
+    width: 50%;
+    height: 70%;
+    background-image: url(Imagens/caminhão1.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+}
+.caixa3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.caixa4{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imagemicon3{
+    width: 50%;
+    height: 70%;
+    background-image: url(Imagens/whatsapp.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.caixa5{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.caixa6{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imagemicon4{
+    width: 50%;
+    height: 100%;
+    background-image: url(Imagens/Limpeza.jpg);
+    background-size: cover;
+
+}
+.imagemicon2{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/estrada.png);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.tela{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #090837;
+    display: flex;
+
+}
+
+.imagemicon5{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/limpeza1.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.imagemicon6{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/montagem\ de\ moveis.png);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.imagemicon7{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/forro\ pvc.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+.imagemicon8{
+    width: 50%;
+    height: 50%;
+    background-image: url(Imagens/papel\ de\ parede.jpg);
+    border: solid #090837 10px;
+    background-size: cover;
+
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #090837;
+    display: flex;
+    padding: 20px;
+}
+
+.caixa-esquerda a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-meio a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:480px){
+    header{
+        width: 98%;
+    }
+
+    tela-principal{
+        width: 98%;
+    }
+
+   
+
+    .img-conteiner{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .caixa-grande{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .img-conteiner1{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-conteiner2{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-conteiner3{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
